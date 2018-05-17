@@ -1,0 +1,176 @@
+body {
+    background: url(../images/table.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+
+.infoForm{
+    width: 15vw;
+    height: 30vh;
+    resize: both;
+    background-color: #282830;
+    position: absolute;
+    border-bottom: double;
+    border-right: double;
+}
+.infoForm div{
+    display: table;
+    text-align: center;
+    width: 100%;
+    height: 20%;
+}
+
+.infoForm input{
+    width: 100%;
+    height: 20%;
+    font-family: 'Lobster', cursive;
+    font-size: 3vmin;
+    border: dotted;
+}
+.infoForm h1{
+    display: table-cell;
+    vertical-align: middle;
+    height: 20%;
+    margin: 0;
+    font-family: 'Lobster', cursive;
+    font-size: 3vmin;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+
+.infoForm a {
+    color: #999;
+    text-decoration: none;
+}
+
+.infoForm a:hover { color: #fcfcfc }
+
+
+.cardPane{
+    text-align: center;
+    width: 100%;
+    height: 22vh;
+}
+#enemyCardPane{
+    margin-top: 23vh;
+}
+
+.inner{
+    display: inline-block;
+}
+
+.card{
+    width: 8vw;
+    height: 20vh;
+    border-radius: 10%;
+}
+.tokenForm{
+    display: inline-block;
+    text-align: left;
+    width: 100%;
+    margin-top: 0;
+}
+
+.tokenForm div{
+    display: inline-block;
+}
+
+.token{
+    width: 8vmin;
+    height: 8vmin;
+    font-family: 'Lobster', cursive;
+    font-size: 2vmin;
+    border-radius: 50%;
+    background-color: darkcyan;
+    border: dashed;
+}
+
+#token1{
+    background-color: darkslateblue;
+}
+#token1:hover{
+    border-color: white;
+}
+#token5{
+    background-color: #7c0b24;
+}
+#token5:hover{
+    border-color: white;
+}
+#token10{
+    background-color:    #2b1546;
+}
+#token10:hover{
+    border-color: white;
+}
+#token50 {
+    background-color: #bf6e4b;
+}
+#token50:hover{
+    border-color: white;
+}
+#token100 {
+    background-color: #615d54;
+}
+#token100:hover{
+    border-color: white;
+}
+#token500{
+    background-color: #631d4a;
+}
+#token500:hover{
+    border-color: white;
+}
+
+.token:hover{
+    background-color: cyan;
+}
+
+.commandPane{
+    width: 100%;
+    margin-top: 4vh;
+    padding-bottom: 3vh;
+}
+
+.buttonPane{
+    text-align: center;
+    padding-top: 3vh;
+}
+
+.commandPane button{
+    font-family: 'Lobster', cursive;
+    font-size: 3vmin;
+    width: 10vw;
+    height: 6vh;
+    background-color: #53020b;
+    color: white;
+    border-radius: 30%;
+    border: dotted;
+    display: none;
+
+}
+
+.commandPane button:hover{
+    background-color: #6b020b;
+}
+
+.info{
+    font-size: 5vmin;
+    font-family: 'Lobster', cursive;
+    background-color: #53020b;
+    color:   white;
+    border: dotted;
+    border-radius: 30%;
+    display: none;
+}
+

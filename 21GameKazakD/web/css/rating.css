@@ -1,0 +1,33 @@
+body{
+    background: url(../images/bg2.jpg) no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    background-color: #282830
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: center;
+    padding: 8px;
+}
+tr{
+    background-color: #999999;
+}
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+img{
+    width: 35px;
+    height: 35px;
+}
+img:hover{
+    background-color: #5cb85c;
+    border-radius: 50%;
+}
